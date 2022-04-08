@@ -17,9 +17,9 @@ func PrintMeAString(str string) {
 	log.Println("Printing a string:", str)
 }
 
-func NewWrapperMnemonic() string {
+func NewWrapperMnemonic(wordListPath string) string {
 	// Load word list
-	wordList, _ := bip39.LoadWordList(bip39.ListLangEn, "wordLists")
+	wordList, _ := bip39.LoadWordList(bip39.ListLangEn, wordListPath)
 	// Generate bip39 compliant entropy
 	entropy, _ := bip39.NewEntropy(bip39.EntropySize128)
 	// Generate mnemonic from entropy
