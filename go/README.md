@@ -4,7 +4,7 @@
 
 `web3lib` is written in [Go](https://go.dev) with binding and wrappers for 
 [Swift](https://www.swift.org), [Kotlin](https://kotlinlang.org) and 
-[TypeScript](https://www.typescriptlang.org). Handles all web3 needs. Creating 
+[JavaScript](https://www.typescriptlang.org). Handles all web3 needs. Creating 
 and managing wallets, signing transactions, connecting to networks, interacting 
 with smart contracts.
 

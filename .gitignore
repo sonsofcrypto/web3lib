@@ -48,3 +48,5 @@ profile.cov
 
 **/yarn-error.log
 
+swift/web3lib.xcframework
+kotlin/web3lib.aar
