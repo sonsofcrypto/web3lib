@@ -28,7 +28,7 @@ $ go install golang.org/x/mobile/cmd/gobind@latest
 $ gomobile init
 ```
 - get dependencies `cd ./go && go get -v`
-- build Swift `gomobile bind -v -target=ios -o ./../switft/web3lib.xcframework ./`
+- build Swift `gomobile bind -v -target=ios -o ./../swift/web3lib.xcframework ./`
 - build Kotlin `gomobile bind -v -o ./../kotlin/web3lib.aar -target=android ./`
 - build for TypeScript, coming soon™
 
