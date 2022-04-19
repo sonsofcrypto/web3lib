@@ -14,6 +14,7 @@
 */**/*tx_database*
 */**/*dapps*
 build/_vendor/pkg
+./swift/web3.xcodeproj/xcuserdata/web3.xcuserdatad/
 
 #*
 .#*
